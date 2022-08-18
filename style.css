@@ -1,0 +1,228 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: pink;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+
+
+/* -------------header--------------- */
+.home {
+  width: 100%;
+  height: 12%;
+}
+
+nav {
+  position: fixed;
+  height: 12%;
+  width: 100%;
+  transition: all 1s;
+  background-color: pink;
+  }
+
+.nav-links{
+  border-bottom: 3px solid white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-links a{
+  color: white;
+  font-weight: bold;
+}
+
+a:hover{
+  opacity:0.33333;
+  }
+
+.forpadding{
+  padding-left: 33px;
+}
+
+/* -------------home--------------- */
+.home-img{
+  background-color: pink;
+}
+
+.home-img .home-p{
+  color: white;
+  text-align: center; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 500%;
+  font-weight: bold;
+  padding: 20%;
+}
+
+/* -------------content1--------------- */
+.content1{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(185, 169, 185);
+  padding: 115px;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  list-style: none;
+}
+
+.content {
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 6px;
+  border: 5px solid white;
+}
+
+.detail{
+  border: 1px solid white;
+  border-radius: 6px;
+}  
+
+a:-webkit-any-link .color{
+  color: white;
+}
+
+
+/* -------------content2--------------- */
+.content2{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(151, 140, 151);;
+  padding: 115px 115px 25px 115px;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  list-style: none;
+  }
+
+.Twitter {
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 6px;
+  border: 5px solid white;
+  }
+
+.Twitter{
+  color: white;
+  }
+
+.last{
+  font-size: 20%;
+}
+
+/* -------------index1--------------- */
+
+
+.seiyakusyo .seiyakusyo1{
+  text-align: center; 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 140%;
+  font-weight: bold;
+  padding-top: 15%;
+padding-bottom: 3%;
+background-color:white;
+}
+
+.naiyou{
+  background-color: white;
+  padding: 0% 15% 15% 15%;
+}
+
+
+/* -------------responsive--------------- */
+@media screen and (max-width: 768px) {
+
+.home-img .home-p{
+  font-size: 200%;
+  }
+
+  .content1{
+    font-size: 75%;
+    padding: 40px;
+  }
+
+  .content2{
+    font-size: 75%;
+    padding: 50px;
+  }
+
+.hamburger div{
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background-color: white;
+  transition: all 0.5s ease;
+    }
+
+nav{
+  position: relative;
+  }
+
+.hamburger{
+  position: fixed;
+  cursor: pointer;
+  margin-top: 3%;
+  left: 90%;
+  z-index: 2;
+  }
+
+.forpadding{
+  padding-left: 0px;
+  }
+
+
+  /* .nav-linksがレスポンシブで表示されたときの話   */
+.nav-links{
+  position: fixed;  
+  height: 100%;
+  width: 100%; 
+  flex-direction: column;
+  clip-path: circle(10px at 92% 5%);  
+  -webkit-clip-path: circle(10px at 92% 5%);
+  transition: all 1s ease  ;
+  border-bottom: none;
+  }
+
+.nav-links.open{
+  background-color: pink;
+  clip-path: circle(1200px at 80% 20%);  
+  -webkit-clip-path: circle(1200px at 80% 20%);  
+  }
+
+.nav-links.close {
+  display: block;
+  }
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+  opacity: 0;
+}
+
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
+
+
+

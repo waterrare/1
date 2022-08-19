@@ -145,6 +145,20 @@ background-color:white;
   padding: 0% 15% 15% 15%;
 }
 
+/* -------------responsive--------------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 3){
+
+  .content1{
+    font-size: 60%;
+    padding: 50px;
+  }
+
+  .content2{
+    font-size: 60%;
+    padding: 50px;
+  }
+
+}
 
 /* -------------responsive--------------- */
 @media screen and (max-width: 768px) {
@@ -154,12 +168,12 @@ background-color:white;
   }
 
   .content1{
-    font-size: 50%;
+    font-size: 100%;
     padding: 50px;
   }
 
   .content2{
-    font-size: 60%;
+    font-size: 100%;
     padding: 50px;
   }
 

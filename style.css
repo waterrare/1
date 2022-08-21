@@ -150,17 +150,14 @@ background-color:white;
 /* -------------responsive--------------- */
 @media screen and (max-width: 1000px) {
 
-.home-img{
-  Height:430px
-}
+ .home-img{
+    height: 610px;
+  }
 
 .home-img .home-p {
-  padding: 160px 75px;
+  padding: 250px 75px;
+   font-size: 200%;
 } 
-
-.home-img .home-p{
-  font-size: 200%;
-  }
 
   .content1{
     font-size: 100%;

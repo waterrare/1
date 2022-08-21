@@ -154,6 +154,9 @@ background-color:white;
   Height:430px
 }
 
+.home-img .home-p {
+  padding: 160px 75px;
+} 
 
 .home-img .home-p{
   font-size: 200%;

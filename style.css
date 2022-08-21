@@ -150,6 +150,11 @@ background-color:white;
 /* -------------responsive--------------- */
 @media screen and (max-width: 1000px) {
 
+.home-img{
+  Height:430px
+}
+
+
 .home-img .home-p{
   font-size: 200%;
   }

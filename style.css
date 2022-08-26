@@ -8,7 +8,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: white;
+  background-color: pink;
 }
 
 a:-webkit-any-link {
@@ -104,7 +104,7 @@ a:-webkit-any-link .color{
 .content2{
   height: 100%;
   width: 100%;
-  background-color: rgb(151, 140, 151);
+  background-color: rgb(151, 140, 151);;
   padding: 115px 115px 25px 115px;
   color: white;
   text-align: center;
@@ -146,26 +146,20 @@ background-color:white;
 }
 
 
-
 /* -------------responsive--------------- */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
 
- .home-img{
-    height: 790px;
+.home-img .home-p{
+  font-size: 200%;
   }
 
-.home-img .home-p {
- padding: 335px 75px;
-   font-size: 200%;
-} 
-
   .content1{
-    font-size: 100%;
-    padding: 50px;
+    font-size: 75%;
+    padding: 40px;
   }
 
   .content2{
-    font-size: 100%;
+    font-size: 75%;
     padding: 50px;
   }
 
